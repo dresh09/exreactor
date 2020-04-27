@@ -2,7 +2,7 @@ import re
 
 #The welcome message
 print('''Welcome to @Dresh09 email extractor,
-please paste your clipboard in iput.txt to extractor emails''')
+please paste your clipboard in input.txt to extractor emails''')
 
 def emailReg():
     fi = open('input.txt', 'r', encoding='utf_8')
