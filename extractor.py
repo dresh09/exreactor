@@ -12,6 +12,7 @@ def emailReg():
         pattern = re.compile('[a-zA-Z0-9\-\.]+@[a-zA-Z0-9\-\.]+\.[a-zA-Z0-9]+')
         result = pattern.findall(line)
         for i in result:
+            print('extracted =>', i)
             print(i, file = fo)
     print('Done')
 emailReg()
